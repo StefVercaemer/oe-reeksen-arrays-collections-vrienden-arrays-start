@@ -15,7 +15,7 @@ het tweede dat van de tweede vriend …
 ![arrays](/images/arrays.png)
 
 ## Opstarten
-Bij het opstarten wordt de methode *ToonHuidigeVrienden* opgestart. 
+Bij het opstarten wordt de methode *VulHuidigeVrienden* opgestart. 
 •	In de array vrienden wordt een aantal namen van vrienden in de elementen geplaatst. 
 In de andere elementen wordt een lege string ingeladen.
 •	In de array geboorteJaren worden de resp. geboortejaren toegewezen. Dit is enkel nodig als er een naam aan de vriend gegeven is.
