@@ -1,0 +1,20 @@
+﻿<Window x:Class="Vrienden.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vrienden.Wpf"
+        mc:Ignorable="d"
+        Title="Mijn vrienden" Height="305.508" Width="522.034" Loaded="Window_Loaded">
+    <Grid>
+        <ListBox x:Name="lstVrienden" HorizontalAlignment="Left" Height="227" Margin="10,38,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Vrienden" HorizontalAlignment="Left" Margin="12,14,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Naam" HorizontalAlignment="Left" Margin="124,38,0,0" VerticalAlignment="Top" Width="85" HorizontalContentAlignment="Right"/>
+        <Label Content="Geboortejaar" HorizontalAlignment="Left" Margin="124,69,0,0" VerticalAlignment="Top" Width="85" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="txtNaam" HorizontalAlignment="Left" Height="23" Margin="214,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+        <TextBox x:Name="txtGeboorteJaar" HorizontalAlignment="Left" Height="23" Margin="214,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
+        <Button x:Name="btnOpslaan" Content="Opslaan" HorizontalAlignment="Left" Margin="214,110,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label x:Name="lblLeeftijd" Content="" HorizontalAlignment="Left" Margin="297,72,0,0" VerticalAlignment="Top" Width="130" Height="23" Background="#FFD2F5A8" Padding="5,2"/>
+
+    </Grid>
+</Window>
