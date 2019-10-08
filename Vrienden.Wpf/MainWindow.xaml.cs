@@ -14,10 +14,10 @@ namespace Vrienden.Wpf
         {
             InitializeComponent();
 
-            ToonHuidigeVrienden();
+            VulArrayHuidigeVrienden();
         }
 
-        void ToonHuidigeVrienden()
+        void VulArrayHuidigeVrienden()
         {
 
         }
