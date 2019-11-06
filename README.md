@@ -22,9 +22,12 @@ In de andere elementen wordt een lege string ingeladen.
 In bovenstaand voorbeeld is Koos geboren in 1992, Kees in 1985, etc.
 ## VulListbox
 Via de methode VulListbox worden alle items in lstVrienden leeg gemaakt en opgevuld met de elementen van de array vrienden.
-Functionaliteiten
-## lstVrienden
-Als er  een item in lstVrienden geselecteerd wordt, verschijnen de naam en het geboortejaar van de geselecteerde vriend in de textboxen. Wanneer op de button btnOpslaan wordt geklikt, wordt de informatie uit de textboxen in de resp. arrays opgeslagen.
+## Functionaliteiten
+- Als er  een item in lstVrienden geselecteerd wordt, verschijnt de naam van de geselecteerde vriend in de textbox.
+- Wanneer op de button btnOpslaan wordt geklikt, wordt de informatie uit de txtNaam in de resp. array opgeslagen.
+
+- Als er  een item in lstVrienden geselecteerd wordt, verschijnt ook het geboortejaar van de geselecteerde vriend in de textbox.
+- Wanneer op de button btnOpslaan wordt geklikt, wordt de informatie uit de txtGeboorteJaar in de resp. array opgeslagen.
 ## Uitbreiding
 - Schrijf een methode om uit de systeemdatum het huidige jaar te halen. 
 - Schrijf een methode om de leeftijd te berekenen op basis van het geboortejaar.
